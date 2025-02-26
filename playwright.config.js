@@ -21,7 +21,7 @@ const config = {
   reporter: 'html',
   use: {
     browserName: 'chromium',
-    headless: false,
+    headless: true,
     screenshot: 'on',
     //off?(No report generate for fail/pass), on(for pass and fail), retain-on-failure
     trace: 'retain-on-failure'
